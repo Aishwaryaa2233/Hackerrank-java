@@ -5,7 +5,7 @@ public class Listlength {
     public static int countElements(List<Integer> list) {
         int count = 0;
         
-        for (Integer element : list) {
+        for (@SuppressWarnings("unused") Integer element : list) {
             count++;
         }
         
